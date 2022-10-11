@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_margin="@dimen/padding_10"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/layoutHeader"
+            layout="@layout/layout_header_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+        </include>
+
+        <RelativeLayout
+            android:id="@+id/layoutBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="500dp"
+            android:layout_above="@id/get_start_tv"
+            android:layout_below="@id/layoutHeader"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/padding_30">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="20dp">
+            </androidx.viewpager2.widget.ViewPager2>
+
+            <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
+                android:layout_marginTop="@dimen/padding_5"
+                android:id="@+id/worm_dots_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/viewPager"
+                android:layout_centerHorizontal="true"
+                android:minHeight="@dimen/padding_10"
+                app:dotsColor="@color/green_main"
+                app:dotsCornerRadius="8dp"
+                app:dotsSize="16dp"
+                app:dotsSpacing="4dp"
+                app:dotsStrokeColor="@color/grey"
+                app:dotsStrokeWidth="2dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/get_start_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding_20"
+            android:background="@drawable/bg_btn_green"
+            android:gravity="center"
+            android:minHeight="@dimen/v2_margin50"
+            android:text="@string/get_start"
+            android:textColor="@color/white"
+            android:textSize="@dimen/padding_18"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+</ScrollView>

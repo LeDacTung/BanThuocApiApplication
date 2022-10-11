@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/drawable/bg_btn_green.xml" value="0.1745" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/drawable/bg_circle_grey.xml" value="0.1515" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/drawable/bg_circle_red.xml" value="0.1135" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/drawable/bg_color_menu.xml" value="0.1" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/drawable/bg_input_search.xml" value="0.1" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/layout/fragment_home_tab.xml" value="0.2" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/layout/fragment_tab_category.xml" value="0.2033514492753623" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/layout/fragment_tab_home.xml" value="0.22509057971014493" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/layout/fragment_tab_person.xml" value="0.264" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/layout/fragment_tab_setting.xml" value="0.2033514492753623" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/layout/item_base_product.xml" value="0.264" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/layout/item_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/layout/layout_header_logo.xml" value="0.253125" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/layout/layout_search.xml" value="0.264" />
+        <entry key="..\:/Tung/Kotlin/BanThuocApiApplication/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

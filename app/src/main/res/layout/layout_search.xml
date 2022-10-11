@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/padding_7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:textColor="@color/green_main"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_23"
+        android:text="@string/name_app"
+        style="@style/Text.Logo">
+    </TextView>
+
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:padding="@dimen/padding_5"
+            android:background="@drawable/bg_circle_grey"
+            android:src="@drawable/ic_baseline_search_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="@color/black">
+        </ImageView>
+
+
+        <ImageView
+            android:layout_marginLeft="@dimen/padding_10"
+            android:padding="@dimen/padding_5"
+            android:background="@drawable/bg_circle_grey"
+            android:src="@drawable/ic_baseline_notifications_none_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tint="@color/black">
+        </ImageView>
+
+    </LinearLayout>
+
+</RelativeLayout>
